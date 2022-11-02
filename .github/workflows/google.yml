@@ -20,7 +20,7 @@ env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT_DEV }}
   GKE_CLUSTER: github-action-gke-cluster
   GKE_ZONE: us-central1-c 
-  DEPLOYMENT_NAME: minbroK-gke-test
+  DEPLOYMENT_NAME: helloweb
   IMAGE: hello-app
 
 jobs:
